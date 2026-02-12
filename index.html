@@ -1,1 +1,141 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Femboy Aesthetic Landing Page</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #E6E6FA;\n            color: #333;\n            margin: 0;\n            padding: 0;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            height: 100vh;\n            text-align: center;\n        }\n        h1 {\n            color: #FFC0CB;\n        }\n        p {\n            color: #333;\n        }\n        .container {\n            background: white;\n            border-radius: 10px;\n            padding: 20px;\n            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n        }\n        a {\n            background-color: #FFC0CB;\n            color: white;\n            padding: 10px 20px;\n            border-radius: 5px;\n            text-decoration: none;\n        }\n        a:hover {\n            background-color: #FFB6C1;\n        }\n    </style>\n</head>\n<body>\n    <div class="container">\n        <h1>Welcome to the Femboy Aesthetic</h1>\n        <p>Explore the world of femboy culture and style.</p>\n        <a href="#">Get Started</a>\n    </div>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Femboy Lifestyle Hub - Your comprehensive guide to fashion, beauty, health, and community">
+    <title>Femboy Lifestyle Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-light">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="logo" data-route>
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text" data-i18n="site_title">Femboy Lifestyle Hub</span>
+                </a>
+            </div>
+            
+            <div class="nav-controls">
+                <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="icon-btn" id="langToggle" aria-label="Toggle language">
+                    <span class="lang-text">العربية</span>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-route data-i18n="nav_home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-i18n="nav_getting_started">Getting Started</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about" data-route data-i18n="nav_about">About Us</a></li>
+                        <li><a href="#guide" data-route data-i18n="nav_guide">Beginner's Guide</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-i18n="nav_fashion">Fashion</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#fashion-skirts" data-route data-i18n="nav_skirts">Skirts & Dresses</a></li>
+                        <li><a href="#fashion-hoodies" data-route data-i18n="nav_hoodies">Oversized Hoodies</a></li>
+                        <li><a href="#fashion-thighhighs" data-route data-i18n="nav_thighhighs">Thigh Highs</a></li>
+                        <li><a href="#fashion-accessories" data-route data-i18n="nav_accessories">Accessories</a></li>
+                        <li><a href="#fashion-shop" data-route data-i18n="nav_shop">Where to Shop</a></li>
+                        <li><a href="#fashion-sizing" data-route data-i18n="nav_sizing">Sizing Guide</a></li>
+                        <li><a href="#fashion-diy" data-route data-i18n="nav_diy">DIY & Modifications</a></li>
+                        <li><a href="#fashion-advanced" data-route data-i18n="nav_advanced">Advanced Tools</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-i18n="nav_beauty">Beauty</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#beauty-skincare" data-route data-i18n="nav_skincare">Basic Skincare</a></li>
+                        <li><a href="#beauty-natural" data-route data-i18n="nav_natural">Natural Makeup</a></li>
+                        <li><a href="#beauty-eyes" data-route data-i18n="nav_eyes">Eye Makeup</a></li>
+                        <li><a href="#beauty-contour" data-route data-i18n="nav_contour">Contouring</a></li>
+                        <li><a href="#beauty-shaving" data-route data-i18n="nav_shaving">Shaving & Hair Removal</a></li>
+                        <li><a href="#beauty-laser" data-route data-i18n="nav_laser">Laser Hair Removal</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-i18n="nav_health">HRT & Health</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#health-disclaimer" data-route data-i18n="nav_disclaimer">⚠️ Disclaimer</a></li>
+                        <li><a href="#health-hrt" data-route data-i18n="nav_hrt">HRT Basics</a></li>
+                        <li><a href="#health-timeline" data-route data-i18n="nav_timeline">Transition Timeline</a></li>
+                        <li><a href="#health-mental" data-route data-i18n="nav_mental">Mental Health</a></li>
+                        <li><a href="#health-fitness" data-route data-i18n="nav_fitness">Diet & Fitness</a></li>
+                        <li><a href="#health-voice" data-route data-i18n="nav_voice">Voice Training</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-i18n="nav_lifestyle">Lifestyle</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#lifestyle-comingout" data-route data-i18n="nav_comingout">Coming Out</a></li>
+                        <li><a href="#lifestyle-dating" data-route data-i18n="nav_dating">Dating Safety</a></li>
+                        <li><a href="#lifestyle-online" data-route data-i18n="nav_online">Online Safety</a></li>
+                        <li><a href="#lifestyle-community" data-route data-i18n="nav_community">Finding Community</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-i18n="nav_resources">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#resources-glossary" data-route data-i18n="nav_glossary">Glossary</a></li>
+                        <li><a href="#resources-links" data-route data-i18n="nav_links">Useful Links</a></li>
+                        <li><a href="#resources-faq" data-route data-i18n="nav_faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" data-route data-i18n="nav_contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="app" class="main-content">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer_about">About Us</h3>
+                    <p data-i18n="footer_description">A comprehensive resource for the femboy community, providing guides on fashion, beauty, health, and lifestyle.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about" data-route data-i18n="nav_about">About</a></li>
+                        <li><a href="#guide" data-route data-i18n="nav_guide">Getting Started</a></li>
+                        <li><a href="#resources-faq" data-route data-i18n="nav_faq">FAQ</a></li>
+                        <li><a href="#contact" data-route data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer_support">Support</h3>
+                    <p data-i18n="footer_support_text">If you're in crisis, please reach out to a mental health professional or crisis hotline.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2024 Femboy Lifestyle Hub. For educational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/pages-content.js"></script>
+    <script src="assets/js/health-pages.js"></script>
+    <script src="assets/js/remaining-pages.js"></script>
+</body>
+</html>
