@@ -5,7 +5,7 @@
 // Language Translations
 const translations = {
     en: {
-        site_title: "Femboy Lifestyle Hub",
+        site_title: "Femboy Hub",
         nav_home: "Home",
         nav_getting_started: "Getting Started",
         nav_about: "About Us",
